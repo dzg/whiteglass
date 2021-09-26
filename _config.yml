@@ -38,8 +38,12 @@ facebook_app_id:
 facebook_image:
 google_analytics:
 comments: false
-
-remote_theme: jekyll-whiteglass 
+# Compress CSS
+sass:
+  style: compressed
+  sass_dir: _sass
+  
+theme: jekyll-whiteglass 
   
 # Plugins
 plugins:
